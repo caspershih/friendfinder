@@ -1,5 +1,7 @@
+.jumbotron {
+    margin: 50px;
+}
+
 .survey-container {
-    margin: 25 px;
-    padding: 25 px;
-    border: 25px;
+    margin: 50px;
 }
