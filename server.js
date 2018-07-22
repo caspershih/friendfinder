@@ -5,6 +5,7 @@ var path = require("path");
 
 // set up the server
 var app = express();
+// so I can use Heroku as my server
 var PORT = process.env.PORT || 8000;
 
 // array for participant
