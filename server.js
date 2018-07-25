@@ -8,15 +8,12 @@ var app = express();
 // so I can use Heroku as my server
 var PORT = process.env.PORT || 8000;
 
-// array for participant
+// empyu array for participant
 var users = [
       {},
 ];
 
-app.post("/", function(request, response) {
-    
-})
-
+// express app that handles data parsing
 app.use(parser.urlencoded({extended: true}));
 app.use(oarser.json());
 
@@ -27,6 +24,7 @@ for(i = 0; i < users.length; i++) {
 };
 
 // function that post html
+
 
 // message when serve boot up
 app.listen(PORT, function() {
