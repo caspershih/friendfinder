@@ -23,9 +23,6 @@ for(i = 0; i < users.length; i++) {
 
 };
 
-// function that post html
-
-
 // message when serve boot up
 app.listen(PORT, function() {
     console.log("The server is currently listening to " + PORT);
