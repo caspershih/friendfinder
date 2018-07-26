@@ -1,4 +1,5 @@
-var participants = require("../data");
+// dependencies
+var participants = require("../data/friend.js");
 
 module.exports = function(app) {
     app.get("/api/:participants?", function(request, response) {
