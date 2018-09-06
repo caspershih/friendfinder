@@ -158,17 +158,25 @@
             </div>
           </div>
           
-          <a type="button" class="btn btn-primary">Submit</a>
+          <a type="button" class="btn btn-primary" id="submitBtn">Submit</a>
 
     </div>
 
 </div>
 <script>
+
+    // function that will open the dropdown
+
     function dropdown() {
-      document.getElementsById("dropdownMenuButton").classList.toggle("show");
+      document.getElementById("dropdownMenuButton").classList.toggle("show");
     };
 
+    $('#myDropdown').on('show.bs.dropdown', function () {
+    
+    // funciton tht will close the ddropdown
 
+
+    })
 </script>
 </body>
 </html>
